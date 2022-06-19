@@ -14,4 +14,7 @@ def test_google2(text_search):
         have.text(text_search))
     browser.element('[name="g tF2Cxc"]').should(be.not_.existing)
 
+
+def test_asser():
+    assert 1 == 1
 #add comment
